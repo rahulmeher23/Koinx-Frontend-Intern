@@ -1,0 +1,72 @@
+.navbar-wrapper {
+  font-family: Inter, sans-serif;
+  width: 100%;
+  padding: 0px 56px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px 0px 1px 0px;
+  border-color: #dedfe2;
+  box-shadow: 0px 0px 12px 0px #1026490f;
+}
+
+.nav-logo {
+  height: 72px;
+  /* padding-left: 60px; */
+  margin: 4px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu-container {
+  display: flex;
+  /* padding-right: 56px; */
+  justify-content: right;
+  align-items: center;
+  /* background-color: red; */
+  font-weight: 600;
+  font-size: 16px;
+  height: 79px;
+  width: 909px;
+  gap: 45px;
+}
+
+.nav-list {
+  display: flex;
+  margin: 4.5px 0px;
+  /* background-color: yellow; */
+  justify-content: right;
+  list-style: none;
+  align-items: right;
+  gap: 32px;
+}
+
+.nav-item {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  /* background-color: green; */
+}
+
+.nav-btn {
+  width: 136px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(81.62deg, #2870ea 8.72%, #1b4aef 85.01%);
+}
